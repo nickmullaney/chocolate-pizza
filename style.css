@@ -19,14 +19,19 @@ h4{
     font-size: 12px;
 }
 
-p{
+.recipe p{
   text-indent: 2rem;
 }
 /* Nav Bar */
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 nav{
   display: flex;
-  width: 100%;
+  width: 900px;
   height: fit-content;
   justify-content: space-between;
 }
@@ -54,7 +59,7 @@ nav{
 }
 
 .crosshatch{
-  width: 100%;
+  width: 900px;
   height: 15px;
   margin-top: 5px;
   color: white;
@@ -68,9 +73,13 @@ nav{
 }
 
 /* Main body */
-
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .heroHat{
-width: 100%;
+width: 900px;
 display: flex;
 height: 100px;
 justify-content: space-between;
@@ -115,16 +124,24 @@ align-items: center;
 /* Recipe box */
 .recipeCard{
 display: flex;
-width: 100%;
+width: 900px;
 margin-top: 1rem;
+margin-bottom: 1rem;
 background-image: url(img/list-bg.png);
 background-color: brown;
+justify-content: space-evenly;
+align-items: center;
+padding: 10px;
+height: 150px;
 }
 
 /* Afterword */
 .afterWord{
+  margin-top: 1rem;
   display: flex;
   align-items: center;
+  width: 900px;
+  justify-content: space-between;
 }
 
 .afterText h5{
@@ -133,7 +150,32 @@ background-color: brown;
 
 .afterText p {
   text-indent: 0;
-  
 }
 
 
+button{
+  background-color: chocolate;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding: 0.5rem;
+}
+
+
+/* Footer */
+
+footer{
+  display: flex;
+  align-items: center;
+  height: 200px;
+  border: 1px solid rebeccapurple;
+}
+
+.footerInfo{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.footerInfo p{
+  text-align: center;
+}
