@@ -6,27 +6,37 @@ h1{
 }
 
 h2{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(0, 0, 0);
   font-size: 35px;
-  font-style: italic;
+  font-weight: 800;
+  
 }
 h3{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: grey;
 }
 h4{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    color: grey;
+}
+h5{
+  
 }
 
-p{
-  text-indent: 2rem;
-}
+
 /* Nav Bar */
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 nav{
   display: flex;
-  width: 100%;
+  width: 900px;
   height: fit-content;
   justify-content: space-between;
 }
@@ -54,7 +64,7 @@ nav{
 }
 
 .crosshatch{
-  width: 100%;
+  width: 900px;
   height: 15px;
   margin-top: 5px;
   color: white;
@@ -68,9 +78,13 @@ nav{
 }
 
 /* Main body */
-
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .heroHat{
-width: 100%;
+width: 900px;
 display: flex;
 height: 100px;
 justify-content: space-between;
@@ -110,30 +124,87 @@ align-items: center;
   align-content: center;
   width: 900px;
   margin-top: 1rem;
+
+}
+
+.recipe p{
+  text-indent: 2rem;
+  font-size: 20px;
+  padding: 5px;
+  font-family:'Times New Roman', Times, serif;
 }
 
 /* Recipe box */
 .recipeCard{
 display: flex;
-width: 100%;
+width: 900px;
 margin-top: 1rem;
+margin-bottom: 1rem;
 background-image: url(img/list-bg.png);
 background-color: brown;
+justify-content: space-evenly;
+align-items: center;
+padding: 10px;
+height: 150px;
 }
+
+.recipeCard li{
+  font-family: 'Comic Neue', cursive;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 
 /* Afterword */
 .afterWord{
+  margin-top: 1rem;
   display: flex;
   align-items: center;
+  width: 900px;
+  justify-content: space-between;
 }
 
 .afterText h5{
   font-weight: 600;
+  font-size: 23px;
+  padding-left: 15px;
+  color: rgb(100, 100, 100);
 }
 
 .afterText p {
   text-indent: 0;
-  
+  font-size: 20px;
+  padding: 15px;
+  color: rgb(100, 100, 100);
 }
 
 
+button{
+  background-color: chocolate;
+  color: white;
+  width: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding: 1rem;
+  border-style: none;
+}
+
+
+/* Footer */
+
+footer{
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+
+.footerInfo{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-weight: 530;
+color: rgb(100,100,100);
+}
+.footerInfo p{
+  text-align: center;
+}
