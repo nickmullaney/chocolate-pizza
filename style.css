@@ -115,18 +115,25 @@ align-items: center;
 /* Recipe box */
 .recipeCard{
 display: flex;
-width: max-content;
+width: 100%;
 margin-top: 1rem;
+background-image: url(img/list-bg.png);
+background-color: brown;
 }
 
-
+/* Afterword */
 .afterWord{
   display: flex;
   align-items: center;
 }
 
+.afterText h5{
+  font-weight: 600;
+}
+
 .afterText p {
   text-indent: 0;
+  
 }
 
 
