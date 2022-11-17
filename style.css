@@ -151,6 +151,7 @@ height: 150px;
 .recipeCard li{
   font-family: 'Comic Neue', cursive;
   font-weight: 500;
+  font-size: 20px;
 }
 
 
@@ -195,7 +196,6 @@ footer{
   display: flex;
   align-items: center;
   height: 200px;
-  border: 1px solid rebeccapurple;
 }
 
 .footerInfo{
