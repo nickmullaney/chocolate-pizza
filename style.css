@@ -6,9 +6,10 @@ h1{
 }
 
 h2{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dancing Script', cursive;
+  
   font-size: 35px;
-  font-style: italic;
+  /* font-style: cursive; */
 }
 h3{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,9 +20,7 @@ h4{
     font-size: 12px;
 }
 
-.recipe p{
-  text-indent: 2rem;
-}
+
 /* Nav Bar */
 header{
   display: flex;
@@ -119,6 +118,13 @@ align-items: center;
   align-content: center;
   width: 900px;
   margin-top: 1rem;
+
+}
+
+.recipe p{
+  text-indent: 2rem;
+  font-size: 20px;
+  padding: 5px;
 }
 
 /* Recipe box */
@@ -146,10 +152,14 @@ height: 150px;
 
 .afterText h5{
   font-weight: 600;
+  font-size: 23px;
+  padding-left: 15px;
 }
 
 .afterText p {
   text-indent: 0;
+  font-size: 20px;
+  padding: 15px;
 }
 
 
@@ -158,7 +168,8 @@ button{
   color: white;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding: 0.5rem;
+  padding: 1rem;
+  border-style: none;
 }
 
 
